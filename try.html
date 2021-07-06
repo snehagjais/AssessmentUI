@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+body {
+  overflow-x: hidden;
+  background-color: #e7e7e791;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d5d4d4fa;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  height: 100px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  border-bottom: 2px solid grey;
+}
+
+.main {
+  margin-left: 100px;
+  font-size: 28px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navItem {
+	text-align: center;
+	align-items: center;
+	color: #464687d1;
+	margin-top: 10px;
+	height: 40px;
+}
+
+.db {
+	align-items: center;
+	color: black;
+	margin-top: 10px;
+	height: 40px;
+}
+
+.top {
+	background-color: white;
+	height: 90px;
+	width: 100%;
+}
+
+.left {
+	color: #464687d1;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.ic {
+	float:left;
+	margin-top: 5px;
+}
+
+.vid {
+	width:70%;
+	float:left;
+}
+
+.tex {
+	width:70% !important;
+	color: black !important;
+}
+
+.dash {
+	height: 100%;
+	width:100% !important;
+	margin-left: 45%;
+	color: black !important;
+}
+
+.inp {
+	marhin-top: 5%;
+	margin-left: 20%;
+}
+
+.or {
+	margin-left: 30%;
+}
+
+.up {
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	text-align: center;
+	align-items: center;
+	padding-top: 5%;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <div class="db">
+	<span class="glyphicon glyphicon-dashboard dash"></span></br>
+  </div>
+  <hr></hr>
+  <div class="navItem">
+	<span class="glyphicon glyphicon-user"></span></br>
+	<span>Students</span>
+  </div>
+  <hr></hr>
+  <div class="navItem">
+	<span class="glyphicon glyphicon-book"></span></br>
+	<span>Lesson Plan</span>
+  </div>
+  <hr></hr>
+  <div class="navItem">
+	<span class="glyphicon glyphicon-cog"></span></br>
+	<span>Settings</span>
+  </div>
+</div>
+
+<div class="main">
+  <div class="top"></div>
+  <div class="left">
+	<span class="glyphicon glyphicon-triangle-left ic"></span>
+	<h4 class="vid">Videos</h4>
+  </div>
+  <br><br>
+  <div class="inp">
+	<input class="form-control tex" type="text" placeholder="Insert URL here"></input>
+	<br>
+	<p class="or">or</p>
+	<br>
+	<div class="up">upload</div>
+  </div>
+</div>
+   
+</body>
+</html> 
